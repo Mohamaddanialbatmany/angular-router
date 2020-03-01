@@ -1,0 +1,7 @@
+<nav>
+    <a [routerLink]="RoutePaths.home.toUrl()" [routerLinkActive]="'active-route'">Home</a>
+    <a [routerLink]="RoutePaths.patheone.toUrl()" [routerLinkActive]="'active-route'">PatheOne</a>
+    <a [routerLink]="RoutePaths.pathetow.toUrl()" [routerLinkActive]="'active-route'">PatheTow</a>
+    <a [routerLink]="RoutePaths.pathetree.toUrl()" [routerLinkActive]="'active-route'">PatheTree</a>
+</nav>
+<router-outlet [routes]="Routes.all"></router-outlet>
